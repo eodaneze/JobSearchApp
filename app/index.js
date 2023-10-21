@@ -21,12 +21,12 @@ const Home = () => {
       <Stack.Screen 
         options={{
           headerStyle: {backgroundColor: COLORS.lightWhite},
-          headerShadowVisible: false,
+          headerShadowVisible: true,
           headerLeft: () => (
             <ScreenHeaderBtn iconUrl={icons.menu} dimension='60%'/>
            ),
           headerRight: () => (
-            <ScreenHeaderBtn iconUrl={icons.profile} dimension='100%'/>
+            <ScreenHeaderBtn iconUrl={images.profile} dimension='100%'/>
            ),
            headerTitle: ""
         }}
